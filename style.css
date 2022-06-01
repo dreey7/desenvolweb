@@ -1,0 +1,117 @@
+* {
+    list-style: none;
+}
+
+body {
+    background-color: rgba(201, 221, 225, 0.729);
+}
+
+#container {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px 0px;
+    box-shadow: 5px 5px 5px rgba(103, 103, 103, 0.098);
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+#header {
+    background-color: rgb(91, 163, 223);
+    height: 100px;
+    border-radius: 15px 0px 0px 0px;
+    margin-top: 50px;
+}
+
+ul {
+    margin-left: -15px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(52, 131, 196)
+}
+
+#text1 {
+    text-decoration: none;
+    color: rgb(1, 68, 123)
+}
+
+#text1:hover {
+    color: rgb(91, 163, 223)
+}
+
+#prox {
+    color: rgb(22, 40, 113);
+    text-align: center;
+    margin: auto;
+        display: block;
+    text-decoration: none;
+}
+
+#prox:hover {
+    color: rgb(5, 44, 199);
+    text-decoration: underline;
+}
+
+@media (max-width: 600px ) {
+    #container {
+        background-color: white;
+        width: 320px;
+        height: 500px;
+        border-radius: 15px 0px;
+        box-shadow: 5px 5px 5px rgba(103, 103, 103, 0.098);
+        margin-top: 50px;
+        margin: auto;
+        display: block;
+    }
+    
+    #header {
+        background-color: rgb(91, 163, 223);
+        height: 100px;
+        border-radius: 15px 0px 0px 0px;
+        margin-top: 50px;
+    }
+    
+    ul {
+        margin-left: -15px;
+        font-size: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-top: -10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: rgb(52, 131, 196)
+    }
+
+    #prox {
+        margin: auto;
+        display: block;
+        color: rgb(22, 40, 113);
+        text-decoration: none;
+    }
+
+    #prox:hover {
+        color: rgb(5, 44, 199);
+        text-decoration: underline;
+    }
+}
